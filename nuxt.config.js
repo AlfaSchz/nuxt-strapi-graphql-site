@@ -37,6 +37,9 @@ module.exports = {
   },
   modules: [
     'bootstrap-vue/nuxt'
-  ]
+  ],
+  env: {
+    API_URL: 'https://lab2.alfasz.me'
+  }
 }
 
